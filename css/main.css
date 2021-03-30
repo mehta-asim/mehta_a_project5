@@ -1,0 +1,287 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.container
+{
+	margin: 0 auto;
+	max-width: 920px;
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+}
+
+#nav
+{
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	margin-left: auto;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+}
+
+#logo
+{
+	margin-top: 10px;
+	width: 158px;
+	height: 70px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+}
+
+#promo
+{
+	margin-top: 40px;
+	flex: 1 1 auto;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#service1, #service2, #service3, #service4
+{
+	flex: 1 1 auto;
+	height: 220px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 200px;
+	margin-top: 40px;
+}
+
+#services
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#focus1, #focus2
+{
+	display: none;
+}
+
+#focus
+{
+	flex: 1 1 auto;
+	height: 420px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 420px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#moreQuestions
+{
+	flex: 1 1 auto;
+	height: 160px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 160px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footerLogo
+{
+	width: 158px;
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#socialMedia
+{	
+	flex: 1 1 335px;
+	/*max-width: 335px;*/
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footerNav
+{
+	display: none;
+}
+
+#socialNav
+{
+	margin-bottom: 40px;
+}
+
+@media screen and (min-width: 600px)
+{
+	#mainHeader
+	{
+		display: flex;
+		flex-direction: row;
+		margin-top: 40px;
+	}
+
+	#logo
+	{
+		order: -1;
+		flex: 0 1 216px;
+		margin-left: 0px;
+		margin-right: 176px;
+		margin-top: 0px;
+	}
+
+	#nav
+	{
+		flex: 1 1 528px;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	#promo
+	{
+		
+		height: 420px;
+		flex: 1 1 920px;
+	}
+
+	#services
+	{
+		flex-direction: row;
+	}
+	
+	#service1, #service2, #service3
+	{
+		width: 216px;
+		height: 420px;
+		margin-right: 20px;
+		line-height: 420px;
+	}
+
+	#service4
+	{
+		width: 216px;
+		height: 420px;
+		line-height: 420px;
+	}
+
+	#focus
+	{
+		display: flex;
+		flex-direction: row;
+		background-color: transparent;
+		width: auto;
+		
+	}
+
+	#focus h2
+	{
+		display: none;
+
+	}
+	#focus1 , #focus2
+	{
+		display: initial;
+		flex: 0 1 450px;
+		height: 420px;
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		line-height: 420px;
+
+	}
+
+	#focus1
+	{
+		margin-right: 20px;
+	}
+
+	#moreQuestions
+	{
+		flex: 1 1 920px;
+		height: 320px;
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		line-height: 320px;
+		margin-top: 40px;
+	}
+
+	#footerLogo
+	{
+		margin-left: 0px;
+		margin-top: 70px;
+		flex:0 0 auto;
+		width: 216px;
+		height: 100px;
+		margin-right: 20px;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	#socialNav
+	{
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+	}
+
+	#socialMedia
+	{
+		margin-top: 0px;
+		width: 450px;
+		max-height: 50px;
+		margin-left: auto;
+		margin-right: 0px;
+	}
+
+	#footerNav
+	{
+		display: initial;
+		width: 528px;
+		max-height: 100px;
+		margin-top: 20px;
+		background-color: #000;
+		text-align: center;
+		line-height: 100px;
+		color: #fff;
+	}
+}
